@@ -13,8 +13,8 @@ const HeroSection = () => {
         transition={{duration: 0.5}}
         className='col-span-7 md:col-span-6 place-self-center text-center sm:text-left'>
         <h1 className='text-white mb-4 text-4xl lg:text-6xl font-extrabold'>
-          <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-700'>
-            Hola, I'm{" "}
+        <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-700'>
+          Hola, I&apos;m{" "}
           </span>
           <br></br>
           <TypeAnimation
@@ -36,10 +36,11 @@ const HeroSection = () => {
         />
         </h1>
         <p className='text-[#ADB7BE] text-lg mb-6 lg:text-xl'>
-            I'm dedicated to building innovative web solutions that simplify and enhance our everyday lives.        
+          I&apos;m dedicated to building innovative web solutions that simplify and enhance our everyday lives.        
         </p>
         <div>
-          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-600 to-red-600 hover:bg-slate-200 text-white'>
+          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-600 to-red-600 hover:bg-slate-200 text-white'
+          onClick={() => document.getElementById('emailSection').scrollIntoView({ behavior: 'smooth' })}>
             Contact Me
           </button>
           <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-red-600 hover:bg-slate-800 text-white mt-3'>
