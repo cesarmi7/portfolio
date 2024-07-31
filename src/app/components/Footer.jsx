@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 
 const Footer = () => {
@@ -28,4 +27,3 @@ const Footer = () => {
 }
 
 export default Footer
->>>>>>> 139cfd5 (hola)
